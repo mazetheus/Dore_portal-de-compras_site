@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'VisbyCF';
+  src: url('src/VisbyCF-Regular.eot'); /* EOT */
+  src: url('src/VisbyCF-Regular.woff2') format('woff2'), /* WOFF2 */
+       url('src/VisbyCF-Regular.woff') format('woff'), /* WOFF */
+       url('src/VisbyCF-Regular.ttf')  format('truetype'); /* TTF */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VisbyCF';
+  src: url('src/VisbyCF-Bold.eot'); /* EOT */
+  src: url('src/VisbyCF-Bold.woff2') format('woff2'), /* WOFF2 */
+       url('src/VisbyCF-Bold.woff') format('woff'), /* WOFF */
+       url('src/VisbyCF-Bold.ttf')  format('truetype'); /* TTF */
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'VisbyCF', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#banner {
+  background-color: #efebe4;
+  height: 100vh;
+  h1 {
+    color: #c63434;
+    font-size: 2.5rem;
+  }
+
+  .col-left {
+    padding-top: 10%;
+    position: relative;
+    .logo {
+      padding: 10% 10% 15% 0;
+      width: 100%;
+    }
+    .receba {
+      position: absolute;
+      right: -20%;
+      bottom: -10%;
+      color: #495c59;
+    }
+  }
+
+  .refrigerantes {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 110vh;
+  }
+}
+
+#motivos {
+  background-color: #4d6f64;
+  min-height: 50vh;
+  padding: 10% 0 5% 0;
+
+  .title {
+    font-family: 'Roboto Slab', serif;
+    color: #94d1be;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .motivos-itens{
+    color: #fff;
+    img {
+      height: 100px;
+      padding: 1rem;
+    }
+  }
+}
+
+#tutorial {
+  background-color: #4d6f64;
+  min-height: 50vh;
+  padding: 0 0 10% 0;
+  position: relative;
+
+  p {
+    color: #fff;
+  }
+
+  .aprenda {
+    color: #94d1be;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .title {
+    color: #ebab3c;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .img-left {
+    width: 25%;
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+  }
+
+  .col-right {
+    height: 100%;
+
+    .img-right { 
+      position: absolute;
+      top: 0;
+      right: 0%;
+      width: 25%;
+    }
+
+    .contato {
+      text-align: left;
+      padding-left: 30%;
+    }
+
+    .icons img{
+      width: 2rem;
+      margin: 1rem;
+    }
+  } 
+}
+
+#contato {
+  background-color: #efebe4;
+  padding: 10% 0 10% 0;
+  min-height: 40vh;
+
+  .logo{
+    width: 80%;
+  }
+
+  .contacts {
+    vertical-align: middle;
+    padding-left: 5%;
+
+    img {
+      width: 1.2rem;
+      margin-right: 1rem;
+    }
+    a {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #4d6f64;
+    }
+  }
+}
+
+footer {
+  height: 2rem;
+  background-color: #c63434;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    margin: auto;
+  }
+
+  img {
+    height: 1rem;
+  }
+}

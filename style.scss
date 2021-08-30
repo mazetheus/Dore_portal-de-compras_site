@@ -37,14 +37,20 @@ strong {
 #banner {
   background-color: #efebe4;
   height: 100vh;
-  h1 {
-    color: #c63434;
-    font-size: 2.5rem;
+
+  .text-banner {
+    text-align: left;
+
+    h1 {
+      color: #c63434;
+      font-size: 2.5rem;
+    }
   }
 
   .col-left {
     padding-top: 10%;
     position: relative;
+
     .logo {
       padding: 10% 10% 15% 0;
       width: 100%;

@@ -1,0 +1,55 @@
+@media only screen and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+  #banner {
+    height: auto;
+  }
+  #banner .col-left .text-banner {
+    padding: 10%;
+    text-align: left;
+  }
+  #banner .col-left .text-banner h1 {
+    font-size: 1.8rem;
+  }
+  #banner .col-left .text-banner p {
+    font-size: 1rem;
+  }
+  #banner .col-left .logo {
+    width: 50%;
+  }
+  #banner .col-left .receba {
+    right: 10%;
+    bottom: -10%;
+  }
+  #banner .refrigerantes {
+    position: relative;
+    width: 100%;
+    padding-top: 10%;
+    height: auto;
+    margin-bottom: -10%;
+  }
+  #motivos {
+    min-height: 50vh;
+    padding: 15% 0 5% 0;
+    margin: 0;
+  }
+  #motivos .title {
+    font-size: 1rem;
+  }
+  #motivos .motivos-itens {
+    font-size: 0.8rem;
+  }
+  #motivos .motivos-itens img {
+    height: 64px;
+    padding: 1rem;
+  }
+  #tutorial {
+    display: block;
+    margin: 0;
+  }
+  #contato {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style_mobile.css.map */

@@ -38,7 +38,11 @@ strong {
   height: 100vh;
 }
 
-#banner h1 {
+#banner .text-banner {
+  text-align: left;
+}
+
+#banner .text-banner h1 {
   color: #c63434;
   font-size: 2.5rem;
 }

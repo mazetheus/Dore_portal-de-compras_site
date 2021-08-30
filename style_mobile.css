@@ -4,9 +4,13 @@
   }
   #banner {
     height: auto;
+    padding: 0;
+  }
+  #banner .container {
+    padding: 0;
   }
   #banner .col-left .text-banner {
-    padding: 10%;
+    padding: 5% 20%;
     text-align: left;
   }
   #banner .col-left .text-banner h1 {
@@ -17,39 +21,139 @@
   }
   #banner .col-left .logo {
     width: 50%;
+    padding: 0;
   }
   #banner .col-left .receba {
     right: 10%;
     bottom: -10%;
   }
+  #banner .img-refrigerante {
+    margin: 0;
+  }
   #banner .refrigerantes {
     position: relative;
     width: 100%;
     padding-top: 10%;
+    left: 0;
     height: auto;
     margin-bottom: -10%;
   }
   #motivos {
     min-height: 50vh;
-    padding: 15% 0 5% 0;
+    padding: 15% 10% 5% 10%;
     margin: 0;
   }
   #motivos .title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   #motivos .motivos-itens {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   #motivos .motivos-itens img {
     height: 64px;
     padding: 1rem;
   }
   #tutorial {
+    margin: 0;
+    padding: 10% 10%;
+  }
+  #tutorial .aprenda {
+    font-size: 1.2rem;
+  }
+  #tutorial .title {
+    font-size: 1rem;
+  }
+  #tutorial .img-left {
+    height: 250px;
+    width: calc(250px/3);
+    bottom: -5%;
+    z-index: 3;
+  }
+  #tutorial .img-left .desktop {
+    display: none;
+  }
+  #tutorial .img-left .mobile {
     display: block;
+  }
+  #tutorial .img-right {
+    display: none;
+    height: 50px;
+    width: 50px;
+  }
+  #tutorial .img-right .desktop {
+    display: none;
+  }
+  #tutorial .img-right .mobile {
+    display: block;
+  }
+  #tutorial .col-right .contato {
+    text-align: center;
+    padding: 5% 0 0 0;
+    width: 50%;
+    margin: auto;
+  }
+  #tutorial .col-right .contato .icons img {
+    width: 1.5rem;
+  }
+  #tutorial p {
+    font-size: 0.8rem;
+  }
+  #brinde .title {
+    margin: 0;
+    padding-top: 2%;
+    -webkit-transform: none;
+            transform: none;
+    text-align: center;
+    padding: 10% 0;
+  }
+  #brinde .desktop {
+    display: none;
+  }
+  #brinde .mobile {
+    display: block;
+  }
+  #brinde img {
+    position: relative;
+    width: 70%;
+  }
+  #brinde .icedtea {
+    padding-bottom: 1rem;
+  }
+  #brinde .text {
+    margin: 0;
+    -webkit-transform: none;
+            transform: none;
+    padding: 10% 0;
+  }
+  #brinde a {
+    font-size: 0.8rem;
+    color: #94d1be;
+    background-color: #495c59;
+    border: none;
+    padding: 1rem 1.8rem 1rem 1.8rem;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  #contato .logo {
+    width: 100%;
+  }
+  #contato .sociais {
+    padding-top: 3rem;
+  }
+  #contato .sociais a {
+    width: 1.5rem;
+    padding: 0;
+  }
+  #contato .sociais a img {
+    width: 1.5rem;
+  }
+  #contato .contacts a {
+    font-size: 0.7rem;
     margin: 0;
   }
-  #contato {
-    display: none;
+  #contato .contacts a img {
+    width: 0.9rem;
+    margin-right: 0.5rem;
   }
 }
 /*# sourceMappingURL=style_mobile.css.map */

@@ -36,6 +36,7 @@ strong {
 #banner {
   background-color: #efebe4;
   height: 100vh;
+  padding-left: 10%;
 }
 
 #banner .text-banner {
@@ -74,7 +75,7 @@ strong {
 #motivos {
   background-color: #4d6f64;
   min-height: 50vh;
-  padding: 10% 0 5% 0;
+  padding: 10% 0 10% 0;
 }
 
 #motivos .title {
@@ -119,10 +120,24 @@ strong {
 }
 
 #tutorial .img-left {
-  width: 25%;
+  height: 600px;
+  width: 400px;
   position: absolute;
-  left: 0;
   bottom: -10%;
+  left: 0;
+  z-index: 3;
+}
+
+#tutorial .img-left .mobile {
+  display: none;
+}
+
+#tutorial .img-left .desktop {
+  display: block;
+}
+
+#tutorial .img-left img {
+  width: 100%;
 }
 
 #tutorial .col-right {
@@ -130,10 +145,23 @@ strong {
 }
 
 #tutorial .col-right .img-right {
+  height: 150px;
+  width: 266px;
   position: absolute;
   top: 0;
-  right: 0%;
-  width: 25%;
+  right: 0;
+}
+
+#tutorial .col-right .img-right .mobile {
+  display: none;
+}
+
+#tutorial .col-right .img-right .desktop {
+  display: block;
+}
+
+#tutorial .col-right .img-right img {
+  width: 100%;
 }
 
 #tutorial .col-right .contato {
@@ -146,14 +174,95 @@ strong {
   margin: 1rem;
 }
 
+#brinde {
+  background-color: #94d1be;
+  min-height: 40vh;
+  position: relative;
+  padding: 0 10%;
+}
+
+#brinde .title {
+  color: #4d6f64;
+  font-size: normal;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  margin-top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  line-height: 1.2rem;
+}
+
+#brinde .mobile {
+  display: none;
+}
+
+#brinde .desktop {
+  display: block;
+}
+
+#brinde img {
+  position: absolute;
+  height: 80%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+}
+
+#brinde .text {
+  margin-top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#brinde .icedtea {
+  color: #fff;
+  padding-bottom: 2rem;
+  line-height: 1rem;
+}
+
+#brinde a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.8rem;
+  color: #495c59;
+  border: solid 1px #495c59;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  border-radius: 50px;
+}
+
 #contato {
   background-color: #efebe4;
-  padding: 10% 0 10% 0;
+  padding: 10% 10% 10% 10%;
   min-height: 40vh;
+  line-height: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #contato .logo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 80%;
+}
+
+#contato .sociais {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+#contato .sociais a {
+  width: 1.8rem;
+  padding-left: 2rem;
+}
+
+#contato .sociais a img {
+  width: 1.8rem;
 }
 
 #contato .contacts {

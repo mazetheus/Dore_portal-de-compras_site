@@ -228,6 +228,7 @@ strong {
   border: solid 1px #495c59;
   padding: 0.6rem 1rem 0.6rem 1rem;
   border-radius: 50px;
+  text-decoration: none;
 }
 
 #contato {

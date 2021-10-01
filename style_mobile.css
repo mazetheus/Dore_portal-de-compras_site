@@ -125,6 +125,10 @@
             transform: none;
     padding: 10% 0;
   }
+  #brinde .botao {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
   #brinde a {
     font-size: 0.8rem;
     color: #94d1be;
